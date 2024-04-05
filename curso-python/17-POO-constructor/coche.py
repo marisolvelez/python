@@ -27,6 +27,7 @@ class Coche:
     def getMarca(self):
         return self.Marca
     
+    #esto es para mostrar toda la info en un solo get y no tener que llamar varios get
     def getInfor(self):
         info = "-----------informacion del coche-------------"
         info += "su color es " + self.getColor()
